@@ -18,7 +18,7 @@ pip install --user cookiecutter
 # Usage
 
 ```
-cookiecutter ./cookiecutter-lambda-nodets-template
+python -m cookiecutter ./cookiecutter-lambda-nodets-template
 ```
 
 # Todo Notes
@@ -29,7 +29,7 @@ cookiecutter ./cookiecutter-lambda-nodets-template
 - Add in git sub tree:
 
 ```
-  - `$ git remote add ops git@github.com:jonathanporta/ops.git --no-tags`
+  - `$ git remote add ops git@github.com:jonathanporta/common-ops.git --no-tags`
   - `$ git subtree add --prefix ops/ ops master --squash`
 
 ```
